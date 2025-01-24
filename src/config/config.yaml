@@ -1,0 +1,23 @@
+api:
+  host: "127.0.0.1"
+  port: 11111
+  is_encrypt: false
+  moomoo_api_key: "your_api_key_here"  # For future use if needed
+  moomoo_openD_url: "wss://openapi.moomoo.com/stream"
+  markets:
+    US: true  # Set to true if you have US market access
+    HK: true   # Set to true if you have HK market access
+
+logging:
+  level: "DEBUG"
+  file: "logs/app.log"
+
+features:
+  company_feedback:
+    enabled: true
+  stock_recommendation:
+    enabled: true
+  todays_sentiment:
+    enabled: true
+  automated_trading:
+    enabled: true 

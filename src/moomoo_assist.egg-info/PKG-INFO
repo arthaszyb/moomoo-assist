@@ -1,0 +1,14 @@
+Metadata-Version: 2.2
+Name: moomoo-assist
+Version: 0.1
+Requires-Python: >=3.8
+Requires-Dist: futu-api>=7.1.3308
+Requires-Dist: PyYAML>=5.4.1
+Requires-Dist: requests>=2.26.0
+Requires-Dist: TA-Lib>=0.4.24
+Provides-Extra: dev
+Requires-Dist: pytest>=6.2.0; extra == "dev"
+Requires-Dist: pytest-cov>=2.12.0; extra == "dev"
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
